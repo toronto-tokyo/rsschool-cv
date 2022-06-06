@@ -26,7 +26,7 @@ At the moment I have no experience in IT, however, if you need a specialist who 
     2. Excessive demands on oneself
 
 
-#### Skills
+### Skills
 Skill | Level
 :----:|:------:
 HTML5 |basic
@@ -34,7 +34,7 @@ CSS3  |basic
 Git   |basic
 
 
-#### Projects
+### Projects
 * CV RS School - in progress
 
 ====
