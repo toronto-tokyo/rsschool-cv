@@ -36,3 +36,21 @@ Git   |basic
 
 #### Projects
 * CV RS School - in progress
+
+====
+### Education
+Parameter    | Characteristic
+-------------|-----------
+Study period |2017-2021
+University   |BSEU
+Faculty      |FMK
+Specialty    |Logistics
+Qualification|Logistics economist
+Average score|7.7
+Work experience in the specialty|Hilti (8 months) - warehouse logistics assistant; Current place work: APS (10 months) - transport specialist
+
+
+### Foreign languages
+Language | Language level  | Comment
+:-------:|:---------------:|:-------:
+English  | A2+ - Streamline|More than a year without practice
