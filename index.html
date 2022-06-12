@@ -6,111 +6,126 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ilya Minchuk - CV</title>
   <link rel="icon" href="/rsschool-cv/img/cv-icon right.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-    <ul>
-      <li><a href="#about me">Me</a></li>
-      <li><a href="#Contact">Contacts</a></li>
-      <li><a href="#Skills">Skills</a></li>
-      <li><a href="#Work">Work</a></li>
-      <li><a href="#Education">Education</a></li>
-      <li><a href="#Code">Code</a></li>
-    </ul>
-    </nav>
-  </header>
-  <main>
-    <img src="/rsschool-cv/img/cv-avat.jpg" alt="my photo">
-    <h1>Minchuk Ilya</h1>
-    <p>21 years old junior front-end developer</p>
-    <h2 id="about me">About yourself</h2>
-    <p>I am impressed by the values and principles: confidence, reliability, professionalism, trust, maintaining an atmosphere of comfort, friendliness and mutual assistance. I believe that this approach guarantees success.<br>At the moment I have no experience in IT, however, if you need a specialist who is motivated to achieve results in work, ready to contribute to the prosperity of the company, I will be happy to become part of your team. I am sure that by gaining experience, I will be able to become an experienced employee who can benefit the company.</p>
-    <h2 id="Contact">Contacts</h2>
-    <ul>
-      <li> Phone: +375(29)886-31-16</li>
-      <li> e-mail: cacatubutyt@gmail.com</li>
-      <li>VK</li>
-      <li>Nickname on the rs school discord server: @toronto-tokyo</li>
-    </ul>
-    <h2 id="Skills"> My Skills</h2>
-    <h3>Hard Skills</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Skill</th>
-          <th>Level</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>HTML5</td>
-          <td>basic</td>
-        </tr>
-        <tr>
-          <td>CSS3</td>
-          <td>basic</td>
-        </tr>
-        <tr>
-          <td>Git</td>
-          <td>basic</td>
-        </tr>
-      </tbody>
-    </table>
-    <h3> Foreign Language Skills</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Language</th>
-          <th>Level</th>
-          <th>Comment</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>English</td>
-          <td>A2+ </td>
-          <td>A year without practice</td>
-        </tr>
-      </tbody>
-    </table>
-    <h3>Projects</h3>
-    <p>CV RS School - in progress</p>
-    <h2 id="Work">Work experience</h2>
-    <p>OKT 2020 JUL 2021</p>
-    <h3>Hilti</h3>
-    <p>Warehouse Logistics Assistant</p>
-    <p>JUL 2021 NOW</p>
-    <h3>APS</h3>
-    <p>Transport Specialist</p>
-    <h2 id="Education">My education</h2>
-    <table>
-      <tbody>
-        <tr>
-          <td>Study period</td>
-          <td>2017-2021</td>
-        </tr>
-        <tr>
-          <td>University</td>
-          <td>BSEU</td>
-        </tr>
-        <tr>
-          <td>Qualification</td>
-          <td>Logistics economist</td>
-        </tr>
-        <tr>
-          <td>Average score</td>
-          <td>7,7/10</td>
-        </tr>
-      </tbody>
-    </table>
-    <h2 id="Code">Code example</h2>
-    <pre><code>
-      function multiply(a,b) {
-        return a * b
-      }
-    </code></pre>
-  </main>
+  <div class="cont">
+    <header>
+      <nav class="nav">
+        <a href="#about-me">Me</a>
+        <a href="#Contact">Contacts</a>
+        <a href="#Skills">Skills</a></li>
+        <a href="#Work">Work</a></li>
+        <a href="#Education">Education</a></li>
+        <a href="#Code">Code</a></li>
+      </nav>
+    </header>
+    <main>
+      <div class="me">
+        <div class="top">
+          <img src="/rsschool-cv/img/cv-avat.jpg" alt="my photo" class="ava">
+          <div class="MeInfo">
+            <div class="hrtop">
+              <h2 id="about-me">About yourself</h2>
+              <div class="hrbold">
+                <div class="hr"></div>
+              </div>
+            </div>
+            <p>I am impressed by the values and principles: confidence, reliability, professionalism, trust, maintaining an atmosphere of comfort, friendliness and mutual assistance. I believe that this approach guarantees success.<br>At the moment I have no experience in IT, however, if you need a specialist who is motivated to achieve results in work, ready to contribute to the prosperity of the company, I will be happy to become part of your team. I am sure that by gaining experience, I will be able to become an experienced employee who can benefit the company.</p>
+          </div>
+        </div>
+        <div class="name">
+          <h1>Minchuk Ilya</h1>
+          <p>21 y.o. junior front-end dev.</p>
+        </div>
+        <div class="contacts">
+          <ul class="ulcontacts">
+            <li class="phone"> Phone <br> +375(29)886-31-16</li>
+            <li class="email"> E-mail<br> cacatubutyt@gmail.com</li>
+            <li class="VK">VK <br> <a href="https://vk.com/mintsch" target="_blank">Social media</a> </li>
+            <li class="DS">Nickname DS rss-server <br> @toronto-tokyo</li>
+          </ul>
+        </div>
+      </div>
+      <h2 id="Skills"> My Skills</h2>
+      <h3>Hard Skills</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML5</td>
+            <td>basic</td>
+          </tr>
+          <tr>
+            <td>CSS3</td>
+            <td>basic</td>
+          </tr>
+          <tr>
+            <td>Git</td>
+            <td>basic</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3> Foreign Language Skills</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Language</th>
+            <th>Level</th>
+            <th>Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>English</td>
+            <td>A2+ </td>
+            <td>A year without practice</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Projects</h3>
+      <p>CV RS School - in progress</p>
+      <h2 id="Work">Work experience</h2>
+      <p>OKT 2020 JUL 2021</p>
+      <h3>Hilti</h3>
+      <p>Warehouse Logistics Assistant</p>
+      <p>JUL 2021 NOW</p>
+      <h3>APS</h3>
+      <p>Transport Specialist</p>
+      <h2 id="Education">My education</h2>
+      <table>
+        <tbody>
+          <tr>
+            <td>Study period</td>
+            <td>2017-2021</td>
+          </tr>
+          <tr>
+            <td>University</td>
+            <td>BSEU</td>
+          </tr>
+          <tr>
+            <td>Qualification</td>
+            <td>Logistics economist</td>
+          </tr>
+          <tr>
+            <td>Average score</td>
+            <td>7,7/10</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2 id="Code">Code example</h2>
+      <pre><code>
+        function multiply(a,b) {
+          return a * b
+        }
+      </code></pre>
+    </main>
+  </div>
   <footer>
     <div>
       <a href="https://github.com/toronto-tokyo" target="_blank"><img src="/rsschool-cv/img/github_PNG15.png" alt="github logo"></a>
