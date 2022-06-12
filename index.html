@@ -11,13 +11,15 @@
 <body>
   <div class="cont">
     <header>
-      <nav class="nav">
-        <a href="#about-me">Me</a>
-        <a href="#Contact">Contacts</a>
-        <a href="#Skills">Skills</a></li>
-        <a href="#Work">Work</a></li>
-        <a href="#Education">Education</a></li>
-        <a href="#Code">Code</a></li>
+      <nav>
+        <ul class="nav">
+          <li><a href="#about-me">Me</a></li>
+          <li><a href="#Contact">Contacts</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Work">Work</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#Code">Code</a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -34,11 +36,11 @@
             <p class="gray">I am impressed by the values and principles: confidence, reliability, professionalism, trust, maintaining an atmosphere of comfort, friendliness and mutual assistance. I believe that this approach guarantees success.<br>At the moment I have no experience in IT, however, if you need a specialist who is motivated to achieve results in work, ready to contribute to the prosperity of the company, I will be happy to become part of your team. I am sure that by gaining experience, I will be able to become an experienced employee who can benefit the company.</p>
           </div>
         </div>
-        <div class="name">
+        <div class="name ttuc">
           <h1>Minchuk Ilya</h1>
           <p>21 y.o. junior front-end dev.</p>
         </div>
-        <div class="contacts">
+        <div id="Contact"class="contacts">
           <ul class="ulcontacts">
             <li class="phone"> <span class="bold black">Phone</span>  <br> <span class="gray">+375(29)886-31-16</span></li>
             <li class="email"> <span class="bold black"> E-mail</span> <br> <span class="gray">cacatubutyt@gmail.com</span></li>
@@ -47,83 +49,74 @@
           </ul>
         </div>
       </div>
-      <h2 id="Skills"> My Skills</h2>
-      <h3>Hard Skills</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Skill</th>
-            <th>Level</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML5</td>
-            <td>basic</td>
-          </tr>
-          <tr>
-            <td>CSS3</td>
-            <td>basic</td>
-          </tr>
-          <tr>
-            <td>Git</td>
-            <td>basic</td>
-          </tr>
-        </tbody>
-      </table>
-      <h3> Foreign Language Skills</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Language</th>
-            <th>Level</th>
-            <th>Comment</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>English</td>
-            <td>A2+ </td>
-            <td>A year without practice</td>
-          </tr>
-        </tbody>
-      </table>
-      <h3>Projects</h3>
-      <p>CV RS School - in progress</p>
-      <h2 id="Work">Work experience</h2>
-      <p>OKT 2020 JUL 2021</p>
-      <h3>Hilti</h3>
-      <p>Warehouse Logistics Assistant</p>
-      <p>JUL 2021 NOW</p>
-      <h3>APS</h3>
-      <p>Transport Specialist</p>
-      <h2 id="Education">My education</h2>
-      <table>
-        <tbody>
-          <tr>
-            <td>Study period</td>
-            <td>2017-2021</td>
-          </tr>
-          <tr>
-            <td>University</td>
-            <td>BSEU</td>
-          </tr>
-          <tr>
-            <td>Qualification</td>
-            <td>Logistics economist</td>
-          </tr>
-          <tr>
-            <td>Average score</td>
-            <td>7,7/10</td>
-          </tr>
-        </tbody>
-      </table>
-      <h2 id="Code">Code example</h2>
-      <pre><code>
-        function multiply(a,b) {
-          return a * b
-        }
-      </code></pre>
+      <div class="mid">
+        <div class="left">
+          <div class="insleft fs20">
+            <h2 id="Skills" class="ttuc bold white"> My Skills</h2>
+            <h3 class="ttuc bold white">Hard Skills</h3>
+              <ul class="skills leftgray">
+                <li>HTML5 - basic</li>
+                <li>CSS3 - basic </li>
+                <li>Git - basic</li>
+              </ul>
+            <table class="table leftgray taleft">
+              <caption class="white ttuc bold caption taleft">Language Skills</caption>
+              <thead>
+                <tr>
+                  <th>Language</th>
+                  <th>Level</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>English</td>
+                  <td>A2+ </td>
+                </tr>
+              </tbody>
+            </table>
+            <h2 class="white">Projects</h2>
+            <ul class="skills leftgray">
+              <li>CV RS School</li>
+            </ul>
+          </div>
+        </div>
+        <div class="right">
+          <h2 id="Work">Work experience</h2>
+          <p>OKT 2020 JUL 2021</p>
+          <h3>Hilti</h3>
+          <p>Warehouse Logistics Assistant</p>
+          <p>JUL 2021 NOW</p>
+          <h3>APS</h3>
+          <p>Transport Specialist</p>
+          <h2 id="Education">My education</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>Study period</td>
+                <td>2017-2021</td>
+              </tr>
+              <tr>
+                <td>University</td>
+                <td>BSEU</td>
+              </tr>
+              <tr>
+                <td>Qualification</td>
+                <td>Logistics economist</td>
+              </tr>
+              <tr>
+                <td>Average score</td>
+                <td>7,7/10</td>
+              </tr>
+            </tbody>
+          </table>
+          <h2 id="Code">Code example</h2>
+          <pre><code>
+            function multiply(a,b) {
+              return a * b
+            }
+          </code></pre>
+        </div>
+      </div>
     </main>
   </div>
   <footer>
