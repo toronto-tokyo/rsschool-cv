@@ -15,6 +15,7 @@ a {
  max-width: 1000px;
  margin: auto;
  box-shadow: 0 0 10px 5px rgb(214, 214, 214);
+ padding-top: 1px;
 }
  nav {
   text-align: right;
@@ -23,7 +24,13 @@ a {
  nav li {
   list-style: none;
   display: inline;
-  margin: 40px 8px 20px 42px;
+  margin: 1px 8px 1px 18px;
+  font-size: 22px;
+  font-weight: 700;
+ }
+
+ nav a {
+  color: #595a5a;
  }
 
 .ava {
