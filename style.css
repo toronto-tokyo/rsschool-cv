@@ -7,6 +7,10 @@ body {
  font-weight: 300;
 }
 
+a {
+  text-decoration: none;
+}
+
 .cont {
  max-width: 1000px;
  margin: auto;
@@ -122,7 +126,7 @@ body {
 
 .hrbold {
   height: 24px;
-  width: 50%;
+  width: 36%;
 }
 
 .hr {
@@ -132,6 +136,34 @@ body {
   width: 100%;
 }
 
+.hr-right {
+  display: flex;
+  justify-content: left;
+}
+
+.hrbold-right1 {
+  height: 24px;
+  width: 35%;
+}
+
+.hrbold-right2 {
+  height: 24px;
+  width: 45%;
+  margin-top: 24.9px;
+}
+
+.hrbold-right3 {
+  height: 24px;
+  width: 44%;
+  margin-top: 60px;
+}
+
+.hrright {
+  height: 50%;
+  border-bottom: 1px solid #292d2d;
+  border-width: 3.5px;
+  width: 100%;
+}
 
 .hrtop {
   display: flex;
@@ -190,6 +222,11 @@ body {
 
 .table {
   width: 100%;
+  margin-bottom: 70px;
+}
+
+.table th {
+  padding-bottom: 10px;
 }
 
 .taleft {
@@ -197,7 +234,7 @@ body {
 }
 
 .caption {
-  margin-top: 20px;
+  margin-top: 65px;
   margin-bottom: 24px;
 }
 
@@ -211,4 +248,125 @@ body {
 
 #Skills {
   padding-bottom: 20px;
+}
+
+.right {
+  width: 600px;
+  color: #292d2d;
+}
+
+.insright {
+  margin-left: 40px;
+  margin-right: 80px;
+  margin-top: 55px;
+}
+
+.work-exp {
+  display: flex;
+}
+
+.WE-first {
+  width: 40px;
+  height: 100%;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 3px solid black;
+  height: 20px;
+  width: 20px;
+  margin: auto;
+}
+
+.hr-table {
+  display: flex;
+  height: calc(100% - 24px);
+}
+
+.hr-table > div {
+  box-sizing: border-box;
+}
+
+.hr-table-left {
+  width: 50%;
+  height: 100%;
+  border-right: 2px solid black;
+}
+
+.hr-table-right {
+  width: 50%;
+  height: 100%;
+  border-left: 1px solid black;
+}
+
+.WE-last {
+  width: 305px;
+}
+
+.WE-right {
+  display: flex;
+}
+
+.WE-left {
+  width: 155px;
+}
+
+.work-exp p {
+  line-height: 30px;
+}
+
+.margtop0 {
+  margin-top: 0px;
+}
+
+.margbot0 {
+  margin-bottom: 0px;
+}
+
+.h2WE {
+  margin-bottom: 44.9px;
+  padding-right: 10px;
+  margin-top: 0px;
+}
+
+.h2ME {
+  margin-bottom: 44.9px;
+  padding-right: 10px;
+}
+
+.h2CE {
+  margin-top: 60px;
+  padding-right: 10px;
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(244, 214, 68);
+}
+
+.ghlogo {
+  width: 400px;
+  padding-left: 50px;
+}
+
+.rslogo {
+  width: 180px;
+  margin: auto;
+}
+
+.year {
+  width: 235px;
+  margin: auto;
+}
+
+.year p {
+  text-align: center;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+
+.school {
+  width: 300px;
+  padding: 10px 0px 10px 50px;
 }
