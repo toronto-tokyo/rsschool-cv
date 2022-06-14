@@ -1,3 +1,379 @@
-h1 {
-  color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Luxurious+Roman&display=swap');
+
+body {
+ font-size: 16px;
+ font-family: 'Comfortaa', cursive;
+ background-color: #fcfcfc;
+ font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cont {
+ max-width: 1000px;
+ margin: auto;
+ box-shadow: 0 0 10px 5px rgb(214, 214, 214);
+ padding-top: 1px;
+}
+ nav {
+  text-align: right;
+ }
+
+ nav li {
+  list-style: none;
+  display: inline;
+  margin: 1px 8px 1px 18px;
+  font-size: 22px;
+  font-weight: 700;
+ }
+
+ nav a {
+  color: #595a5a;
+ }
+
+.ava {
+  width: 400px;
+}
+
+.top {
+  display: flex;
+}
+
+.MeInfo {
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 80px;
+} 
+
+.MeInfo p {
+  text-align: justify;
+}
+
+.me {
+  position: relative;
+}
+.name {
+  background-color: rgba(244, 214, 68, 0.9);
+  position: absolute;
+  bottom: 0px;
+  height: 162.2px;
+  width: 100%;
+  color: #292d2d;
+}
+
+.ttuc {
+  text-transform: uppercase;
+}
+
+.contacts {
+  position: absolute;
+  bottom: 0px;
+  right: 80px;
+  background-color: #fcfcfc;
+}
+
+
+.name p {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 110px;
+}
+
+.name h1 {
+  margin: 36.1px 0px 10px 110px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.ulcontacts {
+  list-style: none;
+  margin: 0px;
+  padding-left: 15px;
+  padding-right: 70px;
+}
+
+.ulcontacts li {
+  margin-bottom: 5px;
+}
+
+.ulcontacts li:last-child {
+  margin-bottom: 0px;
+}
+
+.phone {
+  background-image: url(/rsschool-cv/img/phone.PNG);  
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 50px;
+}
+
+.email {
+  background-image: url(/rsschool-cv/img/email.PNG);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 50px;
+}
+
+.VK {
+  background-image: url(/rsschool-cv/img/VK-icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 50px;
+}
+
+.DS {
+  background-image: url(/rsschool-cv/img/DS.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 50px;
+}
+
+.hrbold {
+  height: 24px;
+  width: 36%;
+}
+
+.hr {
+  height: 50%;
+  border-bottom: 1px solid #292d2d;
+  border-width: 3.5px;
+  width: 100%;
+}
+
+.hr-right {
+  display: flex;
+  justify-content: left;
+}
+
+.hrbold-right1 {
+  height: 24px;
+  width: 35%;
+}
+
+.hrbold-right2 {
+  height: 24px;
+  width: 45%;
+  margin-top: 24.9px;
+}
+
+.hrbold-right3 {
+  height: 24px;
+  width: 44%;
+  margin-top: 60px;
+}
+
+.hrright {
+  height: 50%;
+  border-bottom: 1px solid #292d2d;
+  border-width: 3.5px;
+  width: 100%;
+}
+
+.hrtop {
+  display: flex;
+  justify-content: left;
+}
+
+#about-me {
+  margin: 0px;
+  font-weight: 700;
+  padding-right: 10px;
+  font-size: 30px;
+}
+
+.gray {
+  color: #595a5a;
+}
+
+.a {
+ text-decoration: none;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  color:#292d2d;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.leftgray {
+  color: #a6a6a6;
+}
+
+.mid  {
+  display: flex;
+}
+
+.left {
+  width: 290px;
+  padding-left: 110px;
+  background-color: #292d2d;
+}
+
+.insleft {
+  width: 80%;
+  margin-top: 55px;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.table th {
+  padding-bottom: 10px;
+}
+
+.taleft {
+  text-align: left;
+}
+
+.caption {
+  margin-top: 65px;
+  margin-bottom: 24px;
+}
+
+.skills {
+  padding: 0px  20px;
+}
+
+.skills li {
+  margin-bottom: 20px;
+}
+
+#Skills {
+  padding-bottom: 20px;
+}
+
+.right {
+  width: 600px;
+  color: #292d2d;
+}
+
+.insright {
+  margin-left: 40px;
+  margin-right: 80px;
+  margin-top: 55px;
+}
+
+.work-exp {
+  display: flex;
+}
+
+.WE-first {
+  width: 40px;
+  height: 100%;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 3px solid black;
+  height: 20px;
+  width: 20px;
+  margin: auto;
+}
+
+.hr-table {
+  display: flex;
+  height: calc(100% - 24px);
+}
+
+.hr-table > div {
+  box-sizing: border-box;
+}
+
+.hr-table-left {
+  width: 50%;
+  height: 100%;
+  border-right: 2px solid black;
+}
+
+.hr-table-right {
+  width: 50%;
+  height: 100%;
+  border-left: 1px solid black;
+}
+
+.WE-last {
+  width: 305px;
+}
+
+.WE-right {
+  display: flex;
+}
+
+.WE-left {
+  width: 155px;
+}
+
+.work-exp p {
+  line-height: 30px;
+}
+
+.margtop0 {
+  margin-top: 0px;
+}
+
+.margbot0 {
+  margin-bottom: 0px;
+}
+
+.h2WE {
+  margin-bottom: 44.9px;
+  padding-right: 10px;
+  margin-top: 0px;
+}
+
+.h2ME {
+  margin-bottom: 44.9px;
+  padding-right: 10px;
+}
+
+.h2CE {
+  margin-top: 60px;
+  padding-right: 10px;
+}
+
+.footer {
+  display: flex;
+  background-color: rgb(244, 214, 68);
+}
+
+.ghlogo {
+  width: 400px;
+  padding-left: 50px;
+}
+
+.rslogo {
+  width: 180px;
+  margin: auto;
+}
+
+.year {
+  width: 235px;
+  margin: auto;
+}
+
+.year p {
+  text-align: center;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+
+.school {
+  width: 300px;
+  padding: 10px 0px 10px 50px;
 }
